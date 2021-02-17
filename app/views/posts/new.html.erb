@@ -1,0 +1,6 @@
+<p>名前</p>
+
+<%= form_with url:"/posts/index",local:true do |form| %>
+  <%= form.text_field:content %>
+  <%= form.submit "投稿する"%>
+<% end %>
